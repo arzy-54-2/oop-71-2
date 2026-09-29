@@ -29,11 +29,13 @@ class MageHero(Hero):
 
 asuna = MageHero("Asuna", 122, 12, 1000)
 
-# print(type(asuna))
+print(type(asuna))
 # print(type(kirito))
-# print(asuna.mp)
-# print(asuna.cast_spell())
-# print(asuna.mp)
+print(asuna.mp)
+print(asuna.cast_spell())
+print(asuna.mp)
+
+
 
 
 class Fly:
