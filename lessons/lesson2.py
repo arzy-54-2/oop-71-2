@@ -6,7 +6,7 @@ class Hero:
         self.lvl = lvl
 
     def action(self):
-        return f"{self.name} action!!"
+        return f"{self.name} действие!"
 
 # ardager = Hero("Ardager", 1000, 10)
 # kirito = Hero("Kirito", 111, 11)

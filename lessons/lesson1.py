@@ -7,7 +7,7 @@ class Hero:
         self.hp = hp
 
     def base_action(self):
-        return f"{self.name} this my base action!!"
+        return f"{self.name} this мое base action!"
 
 
 #Объект|Экземпляр на основе класса
