@@ -16,8 +16,7 @@
 6) git add .       | Добавление файлов в буфер обмена
 7) git commit -m "message" | сохранение всего из буфера обмена
 8) git push origin master   | Отправка изменений в репозитории
-9hjdbasiucbjashbckw
-ncjkasnckjasncklas
-fjkalsdnfcjkasnclans
-fdkjncasjkcnaskjfcnakjls
-lkasdncaskjl
+9) git config --global credential.helper credential-manager   | Для сохранения данных учетки
+10) git branch        | Список веток
+11) git branch name_branch        | Создание новой ветки
+11) git switch name_branch        | переключение на указаную ветку
