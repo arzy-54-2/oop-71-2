@@ -20,3 +20,4 @@
 10) git branch        | Список веток
 11) git branch name_branch        | Создание новой ветки
 11) git switch name_branch        | переключение на указаную ветку
+11) git merge branch_name        | стянуть изменения из указной ветки
