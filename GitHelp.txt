@@ -21,6 +21,7 @@
 11) git branch name_branch        | Создание новой ветки
 11) git switch name_branch        | переключение на указаную ветку
 11) git merge branch_name        | стянуть изменения из указной ветки
+12) git clone link_to_project    | Для клонирования проекта
 
 
 
@@ -45,3 +46,18 @@ pip install module_name
 
 для того что бы скачать все что есть в указаном файле
 pip install -r requirements.txt
+
+production
+
+develop
+
+feat/register
+feat/login
+feat/reset_pass
+
+-m "feat: register #123"
+-m "fix: register "
+-m "update: register "
+-m "HotFix: register "
+
+
