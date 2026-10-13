@@ -21,3 +21,27 @@
 11) git branch name_branch        | Создание новой ветки
 11) git switch name_branch        | переключение на указаную ветку
 11) git merge branch_name        | стянуть изменения из указной ветки
+
+
+
+
+deactivate
+
+source .venv/bin/activate
+.venv\Scripts\activate
+source .venv/Scripts/activate
+
+
+создать виртуальное окружение (телефон для проекта)
+py -m venv name_vane
+python -m venv name_vane
+python3 -m venv name_vane
+
+для создания списка всех скачаных зависимостей
+pip freeze -> requirements.txt
+
+для того что бы скачать модуль
+pip install module_name
+
+для того что бы скачать все что есть в указаном файле
+pip install -r requirements.txt
