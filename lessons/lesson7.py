@@ -61,3 +61,31 @@ def delete_user(user_id):
 
 # delete_user(3)
 
+
+
+# def test(index_obj, value_list):
+#     return value_list[index_obj]
+
+# 10 = 10 true
+# 10 > 9 true
+# test(4, [10,11])
+
+nums, target_1 = [7,11,15,2], 9
+
+def twoSum(array, target):
+    num_map = {
+        7: 0,
+        11: 1,
+        15: 2,
+
+    }
+
+    for index, item in enumerate(array):
+        complement = target - item
+        if complement in num_map:
+            return [num_map[complement], index]
+        num_map[item] = index
+    return []
+
+print(twoSum(nums, target_1))
+
